@@ -303,7 +303,7 @@ p{
 	position: relative;
 	background-position: center;
 	z-index: 1;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 #cardapio .cardapio-item2{
 	flex-basis: 80%;
@@ -319,7 +319,7 @@ p{
 	position: relative;
 	background-position: center;
 	z-index: 1;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 #cardapio .cardapio-item3{
 	flex-basis: 80%;
@@ -335,7 +335,7 @@ p{
 	position: relative;
 	background-position: center;
 	z-index: 1;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 #cardapio .cardapio-item4{
 	flex-basis: 80%;
@@ -351,7 +351,7 @@ p{
 	position: relative;
 	background-position: center;
 	z-index: 1;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 #cardapio .cardapio-item1::after{
 	content: '';
@@ -473,7 +473,7 @@ p{
 	flex-direction: column;
 	width: 80%;
 	margin: 20px auto;
-	overflow: hidden;
+	overflow-x : hidden;
 	border-radius: 10px;
 }
 #services .services-info{
@@ -502,7 +502,7 @@ p{
 #services .services-img{
 	flex-basis: 50%;
 	height: 300px;
-	overflow: hidden;
+	overflow-x: hidden;
 	position: relative;
 }
 #services .services-img::after{
